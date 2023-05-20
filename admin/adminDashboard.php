@@ -278,19 +278,8 @@ if (isset($_SESSION['a'])) {
 
         <script src="js/jquery.min.js"></script>
         <script src="js/jquery-ui.min.js"></script>
-        <script>
-            $.widget.bridge('uibutton', $.ui.button)
-        </script>
         <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/Chart.min.js"></script>
-        <script src="js/sparkline.js"></script>
-        <script src="js/jquery.vmap.min.js"></script>
-        <script src="js/jquery.vmap.usa.js"></script>
         <script src="js/jquery.knob.min.js"></script>
-        <script src="js/moment.min.js"></script>
-        <script src="js/daterangepicker.js"></script>
-        <script src="js/tempusdominus-bootstrap-4.min.js"></script>
-        <script src="js/summernote-bs4.min.js"></script>
         <script src="js/jquery.overlayScrollbars.min.js"></script>
         <script src="js/adminlte.js"></script>
         <script src="js/script.js"></script>

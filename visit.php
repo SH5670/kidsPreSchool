@@ -101,6 +101,7 @@
 
                                         </div>
                                     </div>
+                                    <p class="text-danger ms-3" style="font-size: 14px;">Please select a time between 9.00am-4.00pm on weekdays*</p>
 
                                     <div class="col-12">
                                         <div class="form-floating">

@@ -18,10 +18,9 @@
     <link href="resources/logo.png" rel="icon" />
 </head>
 
-<body style=" scrollbar-width: thin; scrollbar-color: white orange; ">
+<body>
     <?php include_once('header.php'); ?>
 
-    <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
@@ -65,10 +64,9 @@
             </div>
         </div>
     </div>
-    <!-- Carousel End -->
 
 
-    <div class="container-xxl py-5">
+    <div class="container-fluid py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h1 class="mb-3">School Facilities</h1>

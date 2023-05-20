@@ -6,9 +6,9 @@
 
                <div class="col-lg-4 col-md-6">
                    <h3 class="text-white mb-4">Get In Touch</h3>
-                   <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Gangani Products, near the Jayanthi School, Nikaweratiya</p>
-                   <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+94 77 201 091 5</p>
-                   <p class="mb-2"><i class="fa fa-envelope me-3"></i>supun9402@gmail.com</p>
+                   <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kids Nursey, Puttalam Road, Wariyapola</p>
+                   <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+94 77 114 131 4</p>
+                   <p class="mb-2"><i class="fa fa-envelope me-3"></i>yashliebe@gmail.com</p>
                    <div class="d-flex pt-2">
                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>

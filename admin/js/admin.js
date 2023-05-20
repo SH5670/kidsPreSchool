@@ -23,7 +23,7 @@ function loginAdmin() {
       if (t == "Success") {
         window.location = "adminDashboard.php";
       } else {
-        alert(t);
+        Swal.fire("Error", t);
       }
     }
   };
@@ -54,10 +54,10 @@ function addSubadmin() {
     if (r.readyState == 4) {
       var t = r.responseText;
       if (t == "Success") {
-        alert("Subadmin added Successfully.");
+        Swal.fire("Successfull", "Subadmin added Successfully.");
         location.reload();
       } else {
-        alert(t);
+        Swal.fire("Error", t);
       }
     }
   };
@@ -88,10 +88,10 @@ function updateSubadmin(id) {
     if (r.readyState == 4) {
       var t = r.responseText;
       if (t == "Success") {
-        alert("Subadmin updated Successfully.");
+        Swal.fire("Successfull", "Subadmin updated Successfully.");
         location.reload();
       } else {
-        alert(t);
+        Swal.fire("Error", t);
       }
     }
   };
@@ -106,10 +106,10 @@ function deleteSubadmin(id) {
     if (r.readyState == 4) {
       var t = r.responseText;
       if (t == "Success") {
-        alert("Subadmin deleted Successfully.");
+        Swal.fire("Successfull", "Subadmin deleted Successfully.");
         location.reload();
       } else {
-        alert(t);
+        Swal.fire("Error", t);
       }
     }
   };
@@ -137,10 +137,10 @@ function addTeacher() {
     if (r.readyState == 4) {
       var t = r.responseText;
       if (t == "Success") {
-        alert("Teacher added Successfully.");
+        Swal.fire("Successfull", "Teacher added Successfully.");
         location.reload();
       } else {
-        alert(t);
+        Swal.fire("Error", t);
       }
     }
   };
@@ -166,10 +166,10 @@ function updateTeacher(id) {
     if (r.readyState == 4) {
       var t = r.responseText;
       if (t == "Success") {
-        alert("Teacher updated Successfully.");
+        Swal.fire("Successfull", "Teacher Updated Successfully.");
         location.reload();
       } else {
-        alert(t);
+        Swal.fire("Error", t);
       }
     }
   };
@@ -184,10 +184,10 @@ function deleteTeacher(id) {
     if (r.readyState == 4) {
       var t = r.responseText;
       if (t == "Success") {
-        alert("Teacher deleted Successfully.");
+        Swal.fire("Successfull", "Teacher deleted Successfully.");
         location.reload();
       } else {
-        alert(t);
+        Swal.fire("Error", t);
       }
     }
   };
@@ -221,10 +221,10 @@ function addStudent() {
     if (r.readyState == 4) {
       var t = r.responseText;
       if (t == "Success") {
-        alert("Student added Successfully.");
+        Swal.fire("Successfull", "Student added Successfully.");
         location.reload();
       } else {
-        alert(t);
+        Swal.fire("Error", t);
       }
     }
   };
@@ -256,10 +256,10 @@ function updateStudent(id) {
     if (r.readyState == 4) {
       var t = r.responseText;
       if (t == "Success") {
-        alert("Student updated Successfully.");
+        Swal.fire("Successfull", "Student Updated Successfully.");
         location.reload();
       } else {
-        alert(t);
+        Swal.fire("Error", t);
       }
     }
   };
@@ -274,10 +274,10 @@ function deleteStudent(id) {
     if (r.readyState == 4) {
       var t = r.responseText;
       if (t == "Success") {
-        alert("Student deleted Successfully.");
+        Swal.fire("Successfull", "Student deleted Successfully.");
         location.reload();
       } else {
-        alert(t);
+        Swal.fire("Error", t);
       }
     }
   };
@@ -302,12 +302,15 @@ function submit(id) {
     if (r.readyState == 4) {
       var t = r.responseText;
       if (t == "Success") {
+        Swal.fire("Successfull", "Submitted Successfully.");
+
         var m = document.getElementById("takeAction");
         var bm = new bootstrap.Modal(m);
         bm.hide();
+
         location.reload();
       } else {
-        alert(t);
+        Swal.fire("Hello", t);
       }
     }
   };
@@ -332,12 +335,14 @@ function updateVistors(id) {
     if (r.readyState == 4) {
       var t = r.responseText;
       if (t == "Success") {
+        Swal.fire("Successfull", "Submitted Successfully.");
+
         var m = document.getElementById("myModal");
         var bs = new bootstrap.Modal(m);
         bs.hide();
         location.reload();
       } else {
-        alert(t);
+        Swal.fire("Hello", t);
       }
     }
   };
@@ -364,9 +369,11 @@ function updateAdimin(id) {
     if (r.readyState == 4) {
       var t = r.responseText;
       if (t == "Success") {
+        Swal.fire("Successfull", "Updated Successfully.");
+
         location.reload();
       } else {
-        alert(t);
+        Swal.fire("Hello", t);
       }
     }
   };
@@ -375,7 +382,6 @@ function updateAdimin(id) {
   r.send(form);
 }
 function changePassword(id) {
-
   var cpassword = document.getElementById("cpw").value;
   var npassword1 = document.getElementById("npw1").value;
   var npassword2 = document.getElementById("npw2").value;
@@ -393,9 +399,10 @@ function changePassword(id) {
     if (r.readyState == 4) {
       var t = r.responseText;
       if (t == "Success") {
+        Swal.fire("Hello", "Password changed Successfully");
         location.reload();
       } else {
-        alert(t);
+        Swal.fire("Hello", t);
       }
     }
   };

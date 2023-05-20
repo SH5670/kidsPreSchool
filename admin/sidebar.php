@@ -1,4 +1,4 @@
-    <aside class="main-sidebar sidebar-white elevation-4">
+    <aside class="main-sidebar sidebar-white bg-white elevation-4">
       <a href="adminDashboard.php" class="brand-link">
 
         <span class="brand-text mx-3 fw-bold" style="color:#567A6F;">Kids PreSchool | Admin </span>

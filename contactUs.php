@@ -48,19 +48,19 @@
                         <div class="bg-light rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 75px; height: 75px;">
                             <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
                         </div>
-                        <h6>Gangani Products, near the Jayanthi School, Nikaweratiya</h6>
+                        <h6>Kids Nursey, Puttalam Road, Wariyapola</h6>
                     </div>
                     <div class="col-md-6 col-lg-4 text-center wow fadeInUp" data-wow-delay="0.3s">
                         <div class="bg-light rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 75px; height: 75px;">
                             <i class="fa fa-envelope-open fa-2x text-primary"></i>
                         </div>
-                        <h6>supun9402@gmail.com</h6>
+                        <h6>yashliebe@gmail.com</h6>
                     </div>
                     <div class="col-md-6 col-lg-4 text-center wow fadeInUp" data-wow-delay="0.5s">
                         <div class="bg-light rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 75px; height: 75px;">
                             <i class="fa fa-phone-alt fa-2x text-primary"></i>
                         </div>
-                        <h6>+94 77 201 091 5</h6>
+                        <h6>+94 77 114 131 4</h6>
                     </div>
                 </div>
         

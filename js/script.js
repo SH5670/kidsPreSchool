@@ -23,7 +23,7 @@ function scheduleTime() {
     if (r.readyState == 4) {
       var t = r.responseText;
       if (t == "Success") {
-        alert("You have successfully scheduled a meeting.");
+        Swal.fire("Successfull", "You have successfully scheduled a meeting.");
         window.location = "home.php";
       }
     }
@@ -63,7 +63,7 @@ function enroll() {
       var t = r.responseText;
       alert(t);
       if (t == "Success") {
-        alert("You have successfully enrolled your child in Kids PreSchool.");
+        Swal.fire("Successfull", "Your data saved successfully.");
         window.location = "home.php";
       }
     }
